@@ -1,0 +1,75 @@
+.banners{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid lightgray;
+}
+.left-banners{
+    margin-right: 5px;
+}
+.rolling-banner{
+    width: 815px;
+    border-radius: 2px;
+}
+.right-banners > img{
+    width: 400px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+.bottom-section{
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+.bottom-section > li > img{
+    width: 45px;
+    margin-bottom: 5px;
+}
+.bottom-section > li > span{
+    margin-bottom: auto;
+}
+.bottom-section > li:hover > img{
+    width: 48px;
+    margin-bottom: 6px;
+}
+.bottom-section > li{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+.category{
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.category-wrap{
+    background-color: white;
+    margin: auto;
+    width: 1200px;
+}
+.category-title{
+    padding: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    margin-right: auto;
+}
+.card > img{
+    width: 83px;
+}
+.cards-box{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.card{
+    border: 0.5px solid #f2f2f2;
+    width: 120px;
+    box-sizing: border-box;
+    height: 120px;
+    cursor: pointer;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px 0px #f2f2f2;
+}
